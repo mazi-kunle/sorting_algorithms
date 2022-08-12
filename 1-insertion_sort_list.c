@@ -13,6 +13,10 @@ void insertion_sort_list(listint_t **list)
 	listint_t *curr, *curr_next;
 
 	curr = *list;
+	if (curr == NULL)
+	{
+		return;
+	}
 	while (curr->next)
 	{
 		curr_next = curr->next;
