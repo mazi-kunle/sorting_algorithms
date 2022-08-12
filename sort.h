@@ -22,5 +22,6 @@ typedef struct listint_s
 void print_list(const listint_t *list);
 void sort_insert(listint_t **list, listint_t *ptr);
 void insertion_sort_list(listint_t **list);
+void selection_sort(int *array, size_t size);
 
 #endif
