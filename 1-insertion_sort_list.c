@@ -17,6 +17,11 @@ void insertion_sort_list(listint_t **list)
 	{
 		return;
 	}
+	if (curr->next == NULL)
+	{
+		print_list(curr);
+		return;
+	}
 	while (curr->next)
 	{
 		curr_next = curr->next;
